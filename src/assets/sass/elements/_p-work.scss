@@ -1,0 +1,32 @@
+div.l-work{
+	min-width:960px;
+	width:100%;
+	div.container{
+		div.c-title{
+			margin:61px 0 40px 0;
+			div.service-title{
+				div.woks{
+
+				}
+			}
+		}
+		div.list-img-work{
+			margin-bottom:40px;
+			div.img-work{
+				float:left;
+				margin-right:30px;
+				&:last-child{
+				 margin-right:0px;
+				}
+			}
+			@include clearfix;
+		}
+		div.c-button{
+			text-align: center;
+			margin-bottom:60px;
+			a{
+
+			}
+		}
+	}
+}

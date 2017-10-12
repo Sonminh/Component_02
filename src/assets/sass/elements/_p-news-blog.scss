@@ -1,0 +1,59 @@
+div.l-news-blog{
+	width: 100%;
+	min-width: 960px;
+	height:144px;
+	position:relative;
+	div.bg-news-blog{
+		background: url('../img/bg_news_blog_01.png');
+		width:50%;
+		height:144px;
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:-1;
+	}
+	div.c-news-blog{
+		div.container{
+			div.title-news-blog{
+			background: url('../img/bg_news_blog_01.png') no-repeat;
+			width:200px;
+			height:144px;
+			float:left;
+			padding-top:50px;
+			box-sizing:border-box;
+				h2{
+					@include setFont(26px,#ffffff,bold);
+				}
+				p{
+					@include setFont(18px,#ffffff,bold,$font-meiryo);
+				}
+			}
+			div.info-news-blog{
+				float:left;
+				background: #FFFFFF;
+				height:144px;
+				width:760px;
+				div.time-news-blog , div.text-news-blog{
+					float:left;
+					margin:31px 0 0 30px;
+					p{
+						@include setFont(16px,#999999,normal,$font-gothic);
+						margin-bottom:10px;
+					}
+				}
+				div.text-news-blog{
+					p{
+						color:#006699 !important;
+					}
+				}
+				div.c-button{
+					a.more{
+						float:right;
+						margin-top:50px;
+					}
+				}
+				@include clearfix;
+			}
+		}
+	}
+}

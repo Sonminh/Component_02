@@ -1,0 +1,30 @@
+div.c-breadcum{
+	ul.breadcum{
+		li{
+			float:left;
+			a{
+				display:block;
+				@include setFont(12px, #006699);
+			}
+			&.active{
+				a{
+					@include setFont(12px, #333333);
+					&:before{
+						content: " > ";
+						margin: 0 5px;
+					}
+				}
+			}
+			&.active-no{
+				a{
+					color:#006699;
+					&:before{
+						content: " > ";
+						margin: 0 5px;
+					}
+				}
+			}
+		}
+		@include clearfix;
+	}
+}

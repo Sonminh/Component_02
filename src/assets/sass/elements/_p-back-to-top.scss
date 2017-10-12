@@ -1,0 +1,22 @@
+div.c-back-to-top{
+	a{
+		display:inline-block;
+		width:62px;
+		height:62px;
+		background: #ffffff;
+		position:fixed;
+		bottom:20px;
+		right:20px;
+		line-height:62px;
+		text-align: center;
+		i{
+			@include setFont(20px,#333333,bold)
+			&:after{
+				content:"";
+				border-top:3px solid #333333;
+				display:block;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,41 @@
+div.l-service{
+	width: 100%;
+	min-width: 960px;
+	background: #ffc600;
+	div.container{
+		div.c-title{
+			padding-top:60px;
+		}
+		div.info-service{
+			text-align:center;
+			p.text-1{
+				@include setFont(24px,#333333,bold,$font-meiryo)
+				padding-top:41px;
+			}
+			p.text-2{
+				@include setFont(16px,#333333,500,$font-meiryo)
+				padding-top:27px;
+			}
+			p.text-3{
+				@include setFont(16px,#333333,500,$font-meiryo)
+				padding:49px 0 39px 0;
+			}
+		}
+		div.list-img-service{
+			div.img-service{
+				margin : 0 30px 30px 0;
+				float:left;
+				img{
+				}
+				&:nth-child(3n){
+					margin-right:0px;
+				}
+			}
+			@include clearfix;
+		}
+		div.c-button{
+			text-align:center;
+			padding:10px 0 59px 0;
+		}
+	}
+}

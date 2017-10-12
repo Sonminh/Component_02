@@ -1,0 +1,50 @@
+div.l-content-work-detail{
+	min-width:960px;
+	width:100%;
+	div.container{
+		div.c-breadcum{
+		padding:21px 0 49px 0;
+		}
+		div.work-detail-right{
+			float:left;
+			width:720px;
+			div.title-work-detail{
+				div.c-subtitle{
+					float:left;
+				}
+				div.c-button{
+					float:right;
+					margin-right:30px;
+				}
+				@include clearfix;
+			}
+			h2{
+				padding:16px 0 30px 0 !important;
+				@include setFont(34px,#333333,bold,$font-meiryo)
+			}
+			div.c-list-images{
+				margin-bottom:21px;
+			}
+			p{
+				padding-bottom:50px;
+				@include setFont(16px,#333333,400,$font-meiryo)
+				width:690px;
+			}
+			div.c-list-icons{
+				text-align:center;
+				margin-bottom:80px;
+				div.next-page{
+					display:inline-block;
+				}
+			}
+		}
+		div.work-detail-left{
+			float:left;
+			width:240px;
+			div.c-widget{
+				margin-bottom:20px;
+			}
+		}
+		@include clearfix;
+	}
+}

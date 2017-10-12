@@ -1,0 +1,25 @@
+div.c-info{
+		div.img{
+			float:left;
+		}
+		div.info{
+			float:left;
+			margin-left:28px;
+			width:530px;
+			p{
+				@include setFont(16px,#333333,400, $font-gothic);
+				margin-bottom:50px;
+				span{
+					display:inline-block;
+					margin-left: 17px;
+				}			
+			}
+			div.info-title{
+				@include setFont(24px,#ec8500,bold, $font-gothic);	
+			}
+			div.info-title-400{
+				@include setFont(24px,#ec8500,400, $font-gothic);
+			}
+		}					
+		@include clearfix;
+}

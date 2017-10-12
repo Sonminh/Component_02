@@ -1,0 +1,39 @@
+div.l-store{
+	min-width:960px;
+	width:100%;
+	background: #ffc600;
+	div.container{
+		div.c-title{
+			padding:60px 0 40px 0;
+		}
+		div.img-store{
+			width:480px;
+			float:left;
+			padding-bottom:60px;
+			img{
+				height:280px;
+			}
+		}
+		div.info-store{
+			width:480px;
+			float:left;
+			p{
+				@include setFont(16px,#333333,500,$font-meiryo)
+				padding-bottom:17px;
+			}
+			p.text-2{
+				padding-bottom:0px;
+			}
+			p.text-3{
+				@include setFont(24px,#333333,bold,$font-meiryo)
+				padding:29px 0 38px 0;
+			}
+		}
+		div.c-button{
+			text-align:right;
+
+		}
+		@include clearfix;
+	}
+}
+

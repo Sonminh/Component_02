@@ -1,0 +1,32 @@
+div.c-title{
+		div.service-title{
+			div.service , div.store{
+				height:138px;
+				background: url('../img/title_01.png') no-repeat;
+				text-align:center;
+				line-height:80px;
+				p{
+					@include setFont(42px,#333333, bold, $font-gothic);
+					span{
+						display:block;
+						@include setFont(26px,#333333, bold, $font-gothic);
+						line-height:10px;
+					}
+				}
+			}
+			div.works, div.contact{
+				height:138px;
+				background: url('../img/title_02.png') no-repeat;
+				text-align:center;
+				line-height:80px;
+				p{
+					@include setFont(42px,#333333, bold, $font-gothic);
+					span{
+						display:block;
+						@include setFont(26px,#333333, bold, $font-gothic);
+						line-height:10px;
+					}
+				}
+			}
+		}
+}

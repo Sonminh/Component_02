@@ -1,0 +1,11 @@
+div.l-news-blog div.bg-news-blog {
+  height: 144px;
+  background: url("../img/bg_news_blog_01.png");
+  width: 40%;
+}
+
+div.l-news-blog div.c-news-blog div.container div.title-news-blog {
+  background: url("../img/bg_news_blog_01.png") no-repeat;
+  width: 200px;
+  height: 144px;
+}

@@ -1,0 +1,52 @@
+div.l-content-service{
+	margin-bottom:80px;
+	min-width:960px;
+	width:100%;
+	div.container{
+		div.c-breadcum{
+			padding-top:20px;
+
+		}
+		p.text-title{
+			padding:49px 0 30px 0;
+			@include setFont(24px,#ec8500,bold,$font-meiryo)
+			text-align: center;
+		}
+		p.text-1 , p.text-2{
+			text-align:center;
+			@include setFont(16px,#333333,400,$font-meiryo)
+		}
+		p.text-1{
+		}
+		p.text-2{
+			padding-bottom:58px;
+		}
+		div.c-subtitle{
+			text-align:center;
+			div.subtitle-1{
+				padding:55px 0 38px 0;
+			}
+		}
+		div.c-info{
+			div.img{
+
+			}
+			p.no-padding{
+				padding-bottom:17px;
+			}
+		}
+		div.info-service{
+			background: url('../img/bg_service_01.png');
+			height:104px;
+			min-width:960px;
+			text-align:center;
+			width:100%;
+			margin-top:30px !important;
+			p{
+				@include setFont(24px,#333333,bold,$font-meiryo);
+				padding-top:20px;
+			}
+		}
+
+	}
+}

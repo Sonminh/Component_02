@@ -1,0 +1,17 @@
+div.l-content-contact{
+	div.container{
+		div.c-breadcum{
+			padding:21px 0 49px 0;
+		}
+		div.info-contact{
+			text-align:center;
+			p{
+				padding-bottom:49px;
+				@include setFont(16px,#333333,400,$font-meiryo)
+			}
+		}
+		div.c-form{
+			margin-bottom:80px;
+		}
+	}
+}
